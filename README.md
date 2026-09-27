@@ -54,4 +54,4 @@ This is your shortcut to great interfaces. A shortcut to stand out in a sea of s
 
 ## Additional skills
 
-The `skills/` directory also includes 292 skills imported from [affaan-m/ECC](https://github.com/affaan-m/ecc), covering languages, frameworks, agent tooling, and domain-specific workflows well beyond design/animation. Browse the directory for the full list; each skill is self-contained in its own folder with a `SKILL.md`. That project is MIT-licensed by Affaan Mustafa — see [LICENSE-ECC](./LICENSE-ECC).
+The `skills/` directory also includes 292 skills imported from [affaan-m/ECC](https://github.com/affaan-m/ecc), covering languages, frameworks, agent tooling, and domain-specific workflows well beyond design/animation. See [skills/INDEX.md](./skills/INDEX.md) for a categorized index of all imported skills; each skill is self-contained in its own folder with a `SKILL.md`. That project is MIT-licensed by Affaan Mustafa — see [LICENSE-ECC](./LICENSE-ECC).
