@@ -51,3 +51,7 @@ This is your shortcut to great interfaces. A shortcut to stand out in a sea of s
 - **[pick-ui-library](./skills/pick-ui-library/SKILL.md)** — Have your agent pick the right library for the task based on libraries I use and trust, instead of letting AI hand-roll a toast component or install an abandoned package.
 - **[prototype](./skills/prototype/SKILL.md)** — Build multiple different versions of a UI piece you describe and go through them using a switcher.
 - **[ask-sonner](./skills/ask-sonner/SKILL.md)** — Your guide to working with [Sonner](https://sonner.emilkowal.ski), my toast library. Contains setup, styling, recipes, and fixes for the most common issues.
+
+## Additional skills
+
+The `skills/` directory also includes 292 skills imported from [affaan-m/ECC](https://github.com/affaan-m/ecc), covering languages, frameworks, agent tooling, and domain-specific workflows well beyond design/animation. See [skills/INDEX.md](./skills/INDEX.md) for a categorized index of all imported skills; each skill is self-contained in its own folder with a `SKILL.md`. That project is MIT-licensed by Affaan Mustafa — see [LICENSE-ECC](./LICENSE-ECC).
