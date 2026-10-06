@@ -51,3 +51,9 @@ This is your shortcut to great interfaces. A shortcut to stand out in a sea of s
 - **[pick-ui-library](./skills/pick-ui-library/SKILL.md)** — Have your agent pick the right library for the task based on libraries I use and trust, instead of letting AI hand-roll a toast component or install an abandoned package.
 - **[prototype](./skills/prototype/SKILL.md)** — Build multiple different versions of a UI piece you describe and go through them using a switcher.
 - **[ask-sonner](./skills/ask-sonner/SKILL.md)** — Your guide to working with [Sonner](https://sonner.emilkowal.ski), my toast library. Contains setup, styling, recipes, and fixes for the most common issues.
+- **[scaffold-3d-site](./skills/scaffold-3d-site/SKILL.md)** — Scaffold a new 3D/WebGL site with Vite or Next.js, React Three Fiber, drei, and postprocessing.
+- **[add-postprocessing](./skills/add-postprocessing/SKILL.md)** — Add a bloom, depth of field, vignette, grain, and tone-mapping stack to an R3F scene, with a frame-time budget.
+- **[scroll-3d-scene](./skills/scroll-3d-scene/SKILL.md)** — Wire up scroll-driven 3D with Lenis and GSAP ScrollTrigger, or drei ScrollControls.
+- **[optimize-3d-assets](./skills/optimize-3d-assets/SKILL.md)** — Shrink glTF/GLB models and textures with gltf-transform, Draco, meshopt, and KTX2, and optionally convert to an R3F component.
+
+The four 3D skills above come from [skinnye/3d-web-pack](https://github.com/skinnye/3d-web-pack) (MIT, © 2026 skinnye). They hand off to that pack's agents (`r3f-engineer`, `shader-artist`, and others), which are not included here.
