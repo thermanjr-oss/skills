@@ -50,4 +50,17 @@ This is your shortcut to great interfaces. A shortcut to stand out in a sea of s
 - **[apple-design](./skills/apple-design/SKILL.md)** — Apple’s principles for interface design and fluid motion, distilled from their WWDC design talks and translated for the web.
 - **[pick-ui-library](./skills/pick-ui-library/SKILL.md)** — Have your agent pick the right library for the task based on libraries I use and trust, instead of letting AI hand-roll a toast component or install an abandoned package.
 - **[prototype](./skills/prototype/SKILL.md)** — Build multiple different versions of a UI piece you describe and go through them using a switcher.
+- **[yt-script](./skills/yt-script/SKILL.md)** — Write a video script from a raw idea: scored hook options, then the full spoken script.
+- **[yt-package](./skills/yt-package/SKILL.md)** — Write and lint the title and thumbnail as one pairing before you publish.
+- **[yt-edit](./skills/yt-edit/SKILL.md)** — Turn a transcript into an edit decision list: dead air, filler and retakes.
+- **[yt-retention](./skills/yt-retention/SKILL.md)** — Read a Studio retention export and find where viewers leave.
+- **[yt-shorts](./skills/yt-shorts/SKILL.md)** — Find and write the Shorts hiding inside a long video.
+- **[yt-chapters](./skills/yt-chapters/SKILL.md)** — Write chapters validated against YouTube's rules so they render.
+- **[yt-seo](./skills/yt-seo/SKILL.md)** — Description, tags and search-facing text aimed at real queries.
+- **[yt-comment](./skills/yt-comment/SKILL.md)** — Triage comments and draft replies in your voice.
+- **[yt-plan](./skills/yt-plan/SKILL.md)** — Plan a week or month of uploads sized to your real capacity.
+- **[yt-audit](./skills/yt-audit/SKILL.md)** — Audit a channel end to end and say what to fix first.
+- **[yt-viral](./skills/yt-viral/SKILL.md)** — Rank what's working in your niche by outlier multiple, then name the formula.
+
+The `yt-*` skills come from [Jakeschincariol/youtube-agent-skill](https://github.com/Jakeschincariol/youtube-agent-skill) (MIT). They read an optional voice profile at `~/.claude/youtube/voice.md`.
 - **[ask-sonner](./skills/ask-sonner/SKILL.md)** — Your guide to working with [Sonner](https://sonner.emilkowal.ski), my toast library. Contains setup, styling, recipes, and fixes for the most common issues.
