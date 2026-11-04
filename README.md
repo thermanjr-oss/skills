@@ -82,4 +82,20 @@ The `replica-*` skills come from [Jakeschincariol/replica-skill](https://github.
 - **[appllama-usage](./skills/appllama-usage/SKILL.md)** — Research top-grossing mobile apps, their screens, flows and paywalls through the Appllama MCP (`https://mcp.appllama.io/mcp`), then build from what you learn.
 
 The `appllama-*` skills come from [Appllama/appllama-skills](https://github.com/Appllama/appllama-skills) (MIT). `appllama-usage` needs the Appllama MCP server connected; this repo does not configure it.
+
+- **[ig-audit](./skills/ig-audit/SKILL.md)** — Post-mortem on what the user has already posted - which reels actually
+- **[ig-caption](./skills/ig-caption/SKILL.md)** — Write the Instagram caption - the line that survives the "... more" cut, the
+- **[ig-carousel](./skills/ig-carousel/SKILL.md)** — Build an Instagram carousel - the cover that earns the swipe, slide-by-slide
+- **[ig-comment](./skills/ig-comment/SKILL.md)** — Write comments on other people's Instagram posts and reels that read as a
+- **[ig-dm](./skills/ig-dm/SKILL.md)** — Write Instagram DMs that get replies - the keyword delivery, the first
+- **[ig-human](./skills/ig-human/SKILL.md)** — Strip the machine fingerprint out of any draft - em dashes, AI slop words,
+- **[ig-plan](./skills/ig-plan/SKILL.md)** — Build the week on Instagram - what to post, which format, when, and who to
+- **[ig-profile](./skills/ig-profile/SKILL.md)** — Score an Instagram profile out of 100 against a 12-part rubric and rewrite
+- **[ig-reel](./skills/ig-reel/SKILL.md)** — Write an Instagram Reel from a raw idea - hook options off 26 formulas, the
+- **[ig-reply](./skills/ig-reply/SKILL.md)** — Handle the comments under the user's own reels and posts - draft replies to
+- **[ig-repurpose](./skills/ig-repurpose/SKILL.md)** — Turn one long asset - a YouTube video, podcast, livestream, newsletter, blog
+- **[ig-story](./skills/ig-story/SKILL.md)** — Write the day's Instagram Stories - the frame-by-frame sequence, which
+- **[ig-viral](./skills/ig-viral/SKILL.md)** — Go and find the reels that are actually working right now in the user's
+
+The `ig-*` skills come from [Jakeschincariol/instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) (MIT). They read an optional voice profile; nothing posts without your approval.
 - **[ask-sonner](./skills/ask-sonner/SKILL.md)** — Your guide to working with [Sonner](https://sonner.emilkowal.ski), my toast library. Contains setup, styling, recipes, and fixes for the most common issues.
