@@ -77,4 +77,9 @@ The `yt-*` skills come from [Jakeschincariol/youtube-agent-skill](https://github
 - **[replica-test](./skills/replica-test/SKILL.md)** — Clicks through every flow of an app clone and tests it for bugs: a test plan
 
 The `replica-*` skills come from [Jakeschincariol/replica-skill](https://github.com/Jakeschincariol/replica-skill) (MIT).
+
+- **[appllama-app-design-skill](./skills/appllama-app-design-skill/SKILL.md)** — Build native-feeling, benchmark-quality mobile screens (Expo / React Native): Apple HIG fidelity, native controls, purposeful motion, and a simulator-verified iteration loop.
+- **[appllama-usage](./skills/appllama-usage/SKILL.md)** — Research top-grossing mobile apps, their screens, flows and paywalls through the Appllama MCP (`https://mcp.appllama.io/mcp`), then build from what you learn.
+
+The `appllama-*` skills come from [Appllama/appllama-skills](https://github.com/Appllama/appllama-skills) (MIT). `appllama-usage` needs the Appllama MCP server connected; this repo does not configure it.
 - **[ask-sonner](./skills/ask-sonner/SKILL.md)** — Your guide to working with [Sonner](https://sonner.emilkowal.ski), my toast library. Contains setup, styling, recipes, and fixes for the most common issues.
