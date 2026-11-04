@@ -63,4 +63,18 @@ This is your shortcut to great interfaces. A shortcut to stand out in a sea of s
 - **[yt-viral](./skills/yt-viral/SKILL.md)** — Rank what's working in your niche by outlier multiple, then name the formula.
 
 The `yt-*` skills come from [Jakeschincariol/youtube-agent-skill](https://github.com/Jakeschincariol/youtube-agent-skill) (MIT). They read an optional voice profile at `~/.claude/youtube/voice.md`.
+
+- **[replica-architect](./skills/replica-architect/SKILL.md)** — Plans the stack, database schema and API for an app clone, from the recon
+- **[replica-backend](./skills/replica-backend/SKILL.md)** — Builds the backend of an app clone: auth, database migrations and access
+- **[replica-brand](./skills/replica-brand/SKILL.md)** — Names and rebrands an app clone so it is the user's own: name candidates
+- **[replica-build](./skills/replica-build/SKILL.md)** — Rebuilds an app screen by screen from the recon map: app shell first, then
+- **[replica-deploy](./skills/replica-deploy/SKILL.md)** — Ships an app clone live on the user's own domain: a preflight gate (tests
+- **[replica-design](./skills/replica-design/SKILL.md)** — Rebuilds an app's design system for a clone: colour roles, type scale,
+- **[replica-diff](./skills/replica-diff/SKILL.md)** — Compares an app clone against the original: a feature parity score from the
+- **[replica-entrepreneur](./skills/replica-entrepreneur/SKILL.md)** — Researches the app being cloned and reads what its real users say in public
+- **[replica-launch](./skills/replica-launch/SKILL.md)** — Writes the launch for an app clone: the landing page built on the
+- **[replica-recon](./skills/replica-recon/SKILL.md)** — Reverse-engineers any app into a recon map: screen inventory, user flows,
+- **[replica-test](./skills/replica-test/SKILL.md)** — Clicks through every flow of an app clone and tests it for bugs: a test plan
+
+The `replica-*` skills come from [Jakeschincariol/replica-skill](https://github.com/Jakeschincariol/replica-skill) (MIT).
 - **[ask-sonner](./skills/ask-sonner/SKILL.md)** — Your guide to working with [Sonner](https://sonner.emilkowal.ski), my toast library. Contains setup, styling, recipes, and fixes for the most common issues.
