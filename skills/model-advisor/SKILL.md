@@ -1,7 +1,6 @@
 ---
 name: model-advisor
-description: Recommend the cheapest Claude model that can do a task well, and escalate to the top model only when the task genuinely needs it. Use when choosing a model for a task, subagent, pipeline step, or API call, or when trying to cut model cost. Only runs when explicitly invoked; it does not trigger on its own.
-disable-model-invocation: true
+description: Recommend the cheapest Claude model that can do a task well, and escalate to the top model only when the task genuinely needs it. Use automatically whenever a model must be chosen: picking a model for a task, subagent, pipeline step, or API call, writing code that calls Claude, delegating work to a subagent, or when the user mentions model cost, speed, or which model to use.
 ---
 
 # Model Advisor
