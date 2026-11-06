@@ -52,3 +52,4 @@ This is your shortcut to great interfaces. A shortcut to stand out in a sea of s
 - **[prototype](./skills/prototype/SKILL.md)** — Build multiple different versions of a UI piece you describe and go through them using a switcher.
 - **[ask-sonner](./skills/ask-sonner/SKILL.md)** — Your guide to working with [Sonner](https://sonner.emilkowal.ski), my toast library. Contains setup, styling, recipes, and fixes for the most common issues.
 - **[model-advisor](./skills/model-advisor/SKILL.md)** — Picks the cheapest Claude model that can do a task well and escalates to the top model only when a concrete trigger calls for it.
+- **[video-perception](./skills/video-perception/SKILL.md)** — Lets Claude watch and analyze videos (local files or YouTube). Vendored from [jordanrendric/claude-video-vision](https://github.com/jordanrendric/claude-video-vision) (MIT); requires that project's MCP server (`npx -y claude-video-vision@latest`) and ffmpeg.
