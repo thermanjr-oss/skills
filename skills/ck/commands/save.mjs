@@ -113,7 +113,8 @@ if (!context) {
 let sessionId;
 try {
   const sess = JSON.parse(readFileSync(CURRENT_SESSION, 'utf8'));
-  sessionId = sess.sessionId || shortId();
+  // Only trust the stored ID if it belongs to this project (sessions can overlap across projects)
+  sessionId = (sess.projectPath === cwd && sess.sessionId) || shortId();
 } catch {
   sessionId = shortId();
 }

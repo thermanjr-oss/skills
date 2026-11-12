@@ -129,7 +129,7 @@ The hook at `~/.claude/skills/ck/hooks/session-start.mjs` must be registered in
 {
   "hooks": {
     "SessionStart": [
-      { "hooks": [{ "type": "command", "command": "node \"~/.claude/skills/ck/hooks/session-start.mjs\"" }] }
+      { "hooks": [{ "type": "command", "command": "node \"$HOME/.claude/skills/ck/hooks/session-start.mjs\"" }] }
     ]
   }
 }

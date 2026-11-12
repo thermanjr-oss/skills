@@ -94,7 +94,7 @@ def main() -> None:
 
     for scenario in scenarios:
         logger.info("       Running %s...", scenario.level_name)
-        run = run_scenario(scenario, model=args.model)
+        run = run_scenario(scenario, model=args.model, skill_path=args.skill)
         result = grade(spec, list(run.observations))
         graded_results.append((scenario.level_name, result, list(run.observations)))
         logger.info("       %s: %.0f%%", scenario.level_name, result.compliance_rate * 100)

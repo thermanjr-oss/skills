@@ -126,7 +126,7 @@ function main() {
       ].filter(Boolean);
 
       // ── Unsaved session detection ─────────────────────────────────────────
-      if (prevSession?.sessionId && prevSession.sessionId !== sessionId) {
+      if (prevSession?.sessionId && prevSession.projectPath === cwd && prevSession.sessionId !== sessionId) {
         // Check if previous session ID exists in sessions array
         const alreadySaved = context.sessions?.some(s => s.id === prevSession.sessionId);
         if (!alreadySaved) {

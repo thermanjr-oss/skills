@@ -1,6 +1,6 @@
 # Skills Index
 
-A categorized index of every skill in this repository: the original 12 animation and design skills, plus 292 skills imported from [affaan-m/ECC](https://github.com/affaan-m/ECC). Skills are grouped by topic below; each entry links to its `SKILL.md`.
+A categorized index of every skill in this repository: the original 11 animation and design skills, plus 292 skills imported from [affaan-m/ECC](https://github.com/affaan-m/ECC). Skills are grouped by topic below; each entry links to its `SKILL.md`.
 
 ## Frontend, UI & Web Frameworks
 

@@ -39,6 +39,7 @@ def run_scenario(
     model: str = "sonnet",
     max_turns: int = 30,
     timeout: int = 300,
+    skill_path: Path | None = None,
 ) -> ScenarioRun:
     """Execute a scenario and extract tool calls from stream-json output."""
     if model not in ALLOWED_MODELS:
@@ -46,6 +47,8 @@ def run_scenario(
 
     sandbox_dir = _safe_sandbox_dir(scenario.id)
     _setup_sandbox(sandbox_dir, scenario)
+    if skill_path is not None:
+        _install_target(sandbox_dir, skill_path)
 
     result = subprocess.run(
         [
@@ -93,10 +96,26 @@ def run_scenario(
 def _safe_sandbox_dir(scenario_id: str) -> Path:
     """Sanitize scenario ID and ensure path stays within sandbox base."""
     safe_id = re.sub(r"[^a-zA-Z0-9\-_]", "_", scenario_id)
+    if not safe_id.strip("._"):
+        raise ValueError(f"Invalid scenario id: {scenario_id!r}")
     path = SANDBOX_BASE / safe_id
     # Validate path stays within sandbox base (raises ValueError on traversal)
     path.resolve().relative_to(SANDBOX_BASE.resolve())
+    if path.resolve() == SANDBOX_BASE.resolve():
+        raise ValueError(f"Invalid scenario id: {scenario_id!r}")
     return path
+
+
+def _install_target(sandbox_dir: Path, skill_path: Path) -> None:
+    """Give the test agent the skill/rule under test, so it is scored against it."""
+    text = skill_path.read_text(encoding="utf-8")
+    if skill_path.stem == "SKILL":
+        name = re.sub(r"[^a-zA-Z0-9\-_]", "_", skill_path.parent.name) or "target-skill"
+        dest = sandbox_dir / ".claude" / "skills" / name / "SKILL.md"
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        dest.write_text(text, encoding="utf-8")
+    else:
+        (sandbox_dir / "CLAUDE.md").write_text(text, encoding="utf-8")
 
 
 def _setup_sandbox(sandbox_dir: Path, scenario: Scenario) -> None:
