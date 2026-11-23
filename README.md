@@ -52,3 +52,4 @@ This is your shortcut to great interfaces. A shortcut to stand out in a sea of s
 - **[prototype](./skills/prototype/SKILL.md)** — Build multiple different versions of a UI piece you describe and go through them using a switcher.
 - **[ask-sonner](./skills/ask-sonner/SKILL.md)** — Your guide to working with [Sonner](https://sonner.emilkowal.ski), my toast library. Contains setup, styling, recipes, and fixes for the most common issues.
 - **[model-advisor](./skills/model-advisor/SKILL.md)** — Picks the cheapest Claude model that can do a task well and escalates to the top model only when a concrete trigger calls for it.
+- **[cli-anything](./skills/cli-anything/SKILL.md)** — Guide to [CLI-Anything](https://github.com/HKUDS/CLI-Anything): install ready-made agent CLIs from CLI-Hub, or generate, refine, test, and validate one for an app you have source for.
